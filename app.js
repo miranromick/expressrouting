@@ -10,11 +10,14 @@ app.get('/hello/:name', function (request, response){
   response.send("Hello " + name + ".  Welcome!");
 });
 
-app.get('/reverse/:name', function (request, response){
-  var name = request.params["name"];
-  response.send(name.reverse);
+app.get('/reverse/:name/order', function (request, response){
+  var name = request.params["name"]
+  var order = function reverse(s){
+    return s.split("").reverse().join("");
+  }
+  response.send("reverse order " + name + reverse)
 });
 
 app.listen(3000, function () {
- console.log('Example app listening on port 3000!');
+  console.log('Example app listening on port 3000!');
 });
