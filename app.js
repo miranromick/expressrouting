@@ -8,23 +8,27 @@ var questions = {
   'coronado-bridge':{
     question: "Who was the first person to ever drive over the Coronado bridge?",
     answer: "Ronald Reagan",
-    img: <img src ='images/coronadobridge.jpg'>
+    img: 'coronadobridge.jpg',
   },
   'hotel-del':{
     question: "What is the largest wooden structure in the United States?  (Hint, its located in San Diego)",
-    answer: "Hotel Del Coronado"
+    answer: "Hotel Del Coronado",
+    img: 'hoteldel.jpg',
   },
   'san-diego-county-fair':{
     question: "What was the original name of the San Diego County Fair?",
-    answer: "Del Mar Fair"
+    answer: "Del Mar Fair",
+    img: 'delmar.jpg',
   },
   'mission-bay':{
     question: "How many visitors come to Mission Bay Park every year?",
-    answer: "More than 5 million"
+    answer: "More than 5 million",
+    img: 'missionbay.jpg',
   },
   'la-jolla-playhouse':{
     question: "What famous actor founded the La Jolla Playhouse?",
-    answer: "Gregory Peck"
+    answer: "Gregory Peck",
+    img: 'lojolla.jpg',
   }
 };
 
