@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "ejs": "^2.5.6",
     "expres": "^0.0.5"
   },
   "devDependencies": {},

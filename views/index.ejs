@@ -1,0 +1,16 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h3> San Diego Trivia </h3>
+    <ul>
+      <% for(var key in allQuestions) { %>
+        <li>
+          <a href="/trivia/<%= key %>">
+            <%= allQuestions[key]["question"] %>
+          </a>
+        </li>
+      <% } %>
+    </ul>
+  </body>
+</html>
